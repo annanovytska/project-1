@@ -1,0 +1,12 @@
+@import './utils/variables.css';
+@import './base/common.css';
+@import './base/container.css';
+@import './base/section.css';
+@import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/how-it-works.css';
+@import './layout/advertisement.css';
+@import './layout/vegetables.css';
+@import './layout/we-will-call-you.css';
+@import './layout/footer.css';
+@import './layout/modal-window.css';
