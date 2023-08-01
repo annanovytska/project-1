@@ -1,0 +1,26 @@
+.how-it-works-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+    color: var(--black);
+    max-width: 335px;  
+}
+
+.steps-container {
+    border-radius: 40px;
+    background: var(--beige);
+}
+
+.steps-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
