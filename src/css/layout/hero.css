@@ -1,7 +1,12 @@
 .hero-section {
+  /* position: relative; */
   padding: 48px 20px 20px;
   background-color: #a1c487;
 }
+.container.hero-div {
+  position: relative;
+}
+
 /* ================================REVIEWS================================ */
 .reviews-ul {
   margin-bottom: 14px;
@@ -204,9 +209,11 @@
     letter-spacing: -2.16px;
   }
   .hero-text {
+    width: 490px;
     margin-bottom: 32px;
   }
   /* ================================BUTTON================================ */
+
   .hero-svg-second {
     fill: #faf3e7;
     width: 114px;
@@ -229,6 +236,9 @@
     display: block;
     margin: 4px auto 7px;
   }
+
+  /* ================================ANCHOR================================ */
+
   .anchor-ul {
     max-width: 214px;
   }
@@ -239,6 +249,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .hero-section {
+    padding: 134px 32px 35px;
+  }
   .hero-svg {
     width: 70px;
     height: 70px;
@@ -275,6 +288,7 @@
     letter-spacing: -2.56px;
   }
   .hero-text {
+    width: 491px;
     margin-bottom: 32px;
   }
   /* ================================BUTTON================================ */
@@ -297,6 +311,9 @@
   }
   /* ================================BANNER================================ */
   .hero-banner {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: block;
     margin: 4px auto 7px;
   }
