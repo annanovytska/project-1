@@ -1,0 +1,119 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <h2 class="modal-title">Your Order</h2>
+    <button class="modal-close-btn" data-modal-close>
+      <svg class="modal-close-icon" width="14" height="14">
+        <use href="../img/sprite.svg#icon-x"></use>
+      </svg>
+    </button>
+    <ul class="modal-list list">
+      <li class="modal-item">
+        <div class="item-text-container">
+          <p class="modal-item-text">Cabbage Basket</p>
+          <span class="modal-item-description">Plant</span>
+        </div>
+        <img
+          class="modal-item-img"
+          src=""
+          alt="Cabbage in basket"
+          width=""
+          height=""
+        />
+        <label class="modal-check-label">
+          <input
+            class="modal-item-check visually-hidden"
+            type="checkbox"
+            name="choise"
+            value="cabbage-busket"
+          />
+          <span class="modal-fake-check"
+            ><svg class="modal-check-icon" width="8" height="8">
+              <use href="../img/sprite.svg#icon-checked"></use></svg
+          ></span>
+        </label>
+      </li>
+      <li class="modal-item">
+        <div class="item-text-container">
+          <p class="modal-item-text">Tomato Basket</p>
+          <span class="modal-item-description">Plant</span>
+        </div>
+        <img
+          class="modal-item-img"
+          src=""
+          alt="Tomato in basket"
+          width=""
+          height=""
+        />
+        <label class="modal-check-label">
+          <input
+            class="modal-item-check visually-hidden"
+            type="checkbox"
+            name="choise"
+            value="tomato-basket"
+          />
+          <span class="modal-fake-check"
+            ><svg class="modal-check-icon" width="8" height="8">
+              <use href="../img/sprite.svg#icon-checked"></use></svg
+          ></span>
+        </label>
+      </li>
+      <li class="modal-item">
+        <div class="item-text-container">
+          <p class="modal-item-text">Vegetables Basket</p>
+          <span class="modal-item-description">Plant</span>
+        </div>
+        <img class="modal-item-img" src="" alt="Vegetables in basket" />
+        <label class="modal-check-label">
+          <input
+            class="modal-item-check visually-hidden"
+            type="checkbox"
+            name="choise"
+            value="vegetables-basket"
+          />
+          <span class="modal-fake-check"
+            ><svg class="modal-check-icon" width="8" height="8">
+              <use href="../img/sprite.svg#icon-checked"></use></svg
+          ></span>
+        </label>
+      </li>
+    </ul>
+    <form class="modal-form">
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          minlength="4"
+          maxlength="20"
+          pattern="[a-zA-Z ]+"
+          required
+          placeholder="Enter full name..."
+      /></label>
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="email"
+          name="user-email"
+          required
+          placeholder="Enter email..."
+      /></label>
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="tel"
+          minlength="16"
+          maxlength="16"
+          pattern="[0-9]+"
+          name="user-card-number"
+          required
+          placeholder="Enter card.."
+      /></label>
+      <textarea
+        class="modal-form-comment"
+        name="comment"
+        placeholder="Enter comments..."
+      ></textarea>
+      <button class="modal-form-btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
