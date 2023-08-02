@@ -3,8 +3,9 @@
   background-repeat: repeat; */
   background-color: var(--beige);
   border-radius: 40px;
-
-  padding: 80px 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  /* padding: 80px 20px; */
 }
 
 .delivery-text {
