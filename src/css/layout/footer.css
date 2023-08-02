@@ -1,9 +1,85 @@
+.footer-figuration {
+    background-color: var(--light-green);
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
+.logo-photo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+.logo-footer {
+    display: inline;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.logo-link-broccoli {
+    color: var(--black);
+}
 
+.navigation-footer-div {
+    margin-bottom: 40px;
+}
 
+.page-navigation-link {
+    color: var(--black);
+}
+
+.navigation-list {
+   display: flex;
+   gap: 20px;
+}
+
+.social-links-footer-div {
+    margin-bottom: 40px;
+}
+
+.social-links-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons-footer {
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    fill: var(--black);
+    opacity: 0.800000011920929;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+.contact-information-list {
+    text-align: center;
+}
+
+.contact-information-list:not(:last-child) {
+    padding-bottom: 20px;
+}
+.contact-link {
+    color: var(--black);
+    font-style: normal;
+}
+
+.location-link {
+    color: var(--black);
+    font-style: normal;
+}
 
 
 @media screen and (min-width: 768px) {
