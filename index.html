@@ -495,15 +495,22 @@
 </section>
 
     <footer>
-  <div class="footer-container">
+  <div class="container footer-container">
     <div class="logo-footer">
-      <img
-        srcset="../img/logo-broccoli-1.png 1x, ../img/logo-broccolli@2.png"
-        src="../img/logo-broccoli-1.png"
-        alt="logo-broccoli-photo"
-        width="349"
-        height="179"
-      />
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="../img/logo-broccoli-1.png 1x, ../img/logo-broccolli@2.png 2x"
+        />
+        <source
+          media="(min-width: 375px)"
+          srcset="
+            ../img/broccoli-mobile1x.png  1x,
+            ../img/broccoli-mobile@2x.png 2x
+          "
+        />
+        <img src="../img/logo-broccoli-1.png" alt="logo-broccoli-photo" />
+      </picture>
       <a href="./index.html" class="logo-footer-link"></a>
       <svg class="logo-icon" width="16" height="16">
         <use href="../img/sprite.svg#icon-logo"></use>
