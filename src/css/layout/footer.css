@@ -21,7 +21,10 @@
 }
 
 .logo-footer {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -119,16 +122,11 @@
     
     .logo-footer {
         text-align: start;
-        padding-left: 114px;
 
     }
 
     .location-link {
         text-align: start;
-    }
-    
-    .navigation-list {
-        padding-top: 40px;
     }
 
     .social-links-footer-div {
@@ -138,8 +136,15 @@
 }
 
 
-
 @media screen and (min-width: 1280px) {
 
-    
+    .logo-tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation-list {
+        margin-left: 166px;
+    }
+
 }
