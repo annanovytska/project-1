@@ -1,0 +1,18 @@
+.marque-line-first {
+    display: inline-flex;
+    transform: rotate(1.018deg);
+    padding: 8.485px 0px 13.471px 5.732px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--orange);
+}
+
+.marque-line-second {
+    display: inline-flex;
+    transform: rotate(-1.07deg);
+    padding: 12.474px 0px 9.354px 0px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--green);
+}
+
