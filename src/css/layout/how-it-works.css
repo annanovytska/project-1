@@ -7,11 +7,11 @@
 }
 
 .how-it-works-container {
-    margin-bottom: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 335px;
+    margin-bottom: 80px;
 }
 
 .how-it-works-title {
@@ -26,27 +26,42 @@
 }
 
 .how-it-works-img {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 335px;
+    height: 158px;
 }
 
 .steps-container {
     border-radius: 40px;
     background: var(--beige);
     margin-top: 40px;
+    padding-top: 40px;
+}
+
+.steps-title {
+    min-width: 295px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.steps-list {
+    padding-top: 40px;
+    padding-right: 85px;
+    padding-left: 20px;
+
+}
+
+.steps-list-img {
+    width: 258px;
+    height: 319px;
 }
 
 .steps-container-bg-icon {
-    background-image: url()
+    background-image: url(../../img/sprite.svg#icon-green-circle)
 }
 
 .repeat {
     background-repeat: repeat;
 }
-
-.repeat::before {
-    content: "repeat";
- }
 
 .steps-title {
     font-size: 24px;
