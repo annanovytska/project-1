@@ -19,7 +19,85 @@
     <link rel="stylesheet" href="/project-1/assets/index-57cc5d8d.css">
   </head>
   <body>
-    
+    <header class="page-header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <ul class="list site-nav">
+        <li class="site-nav-item">
+          <a class="link site-nav-link" href="./how-it-works.html"
+            >How It Works</a
+          >
+        </li>
+        <li class="site-nav-item">
+          <a class="link site-nav-link" href="./vegetables.html">Vegetables</a>
+        </li>
+        <li class="site-nav-item">
+          <a class="link site-nav-link" href="#">Contacts</a>
+        </li>
+      </ul>
+      <div class="logo">
+        <svg class="logo-icon" width="16" height="16">
+          <use href="../../src/img/sprite.svg#icon-logo"></use>
+        </svg>
+        <a href="../index.html">veggieboost</a>
+      </div>
+    </nav>
+    <svg class="shopping-basket" width="24" height="24">
+      <use href="../../src/img/sprite.svg#icon-shopping-basket"></use>
+    </svg>
+
+    <button
+      class="burger-btn js-open-menu"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg class="burger-icon" width="16" height="16">
+        <use href="../../src/img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu-window js-menu-container" id="mobile-menu">
+  <div class="mobile-menu-form">
+    <button
+      class="mobile-menu-close-btn js-close-menu"
+      type="button"
+      data-modal-close
+    >
+      <svg
+        class="mobile-menu-close-icon"
+        aria-label="close"
+        width="24"
+        height="24"
+      >
+        <use href="../../src/img/sprite.svg#icon-close-mobile-menu"></use>
+      </svg>
+    </button>
+    <nav class="mobile-menu-nav">
+      <ul class="mobile-menu-nav-panel list">
+        <li class="mobile-menu-nav-list">
+          <a href="./how-it-works.html" class="mobile-menu-link link"
+            >How It Works</a
+          >
+        </li>
+        <li class="mobile-menu-nav-list">
+          <a href="./vegetables.html" class="mobile-menu-link link"
+            >Vegetables</a
+          >
+        </li>
+        <li class="mobile-menu-nav-list">
+          <a href="#" class="mobile-menu-link link">Contacts</a>
+        </li>
+      </ul>
+      <svg class="shopping-basket" width="24" height="24">
+        <use href="../../src/img/sprite.svg#icon-shopping-basket"></use>
+      </svg>
+    </nav>
+  </div>
+</div>
+
     <!DOCTYPE html>
 <html lang="en">
   <head>
