@@ -1,0 +1,45 @@
+.vgtb-title {
+  color: var(--black);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+}
+.vgtb-subtitle {
+  color: var(--black);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+.vgtb-link-title {
+  color: var(--black);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+.vegetables-bloc {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vgtb-link {
+  background: var(--light-green);
+  border-radius: 20px;
+}
+.vgtb-icon {
+  fill: #141414;
+  opacity: 0.10000000149011612;
+  filter: blur(13.591408729553223px);
+}
