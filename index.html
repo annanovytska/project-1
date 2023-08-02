@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/project-1/assets/index-a99cb59e.css">
+    <link rel="stylesheet" href="/project-1/assets/index-30b23dab.css">
   </head>
   <body>
     <header class="page-header">
@@ -109,10 +109,10 @@
     <!-- ================================HERO================================ -->
     <section class="hero-section">
       <div class="container">
-        <div class="reviews-div">
-          <div class="review-img-div">
+        <ul class="reviews-ul list">
+          <li class="reviews-li">
             <svg class="hero-svg" width="44" height="44">
-              <use href="../img/hero/elipses.svg#icon-Ellipse-1"></use>
+              <use href="../img/sprite.svg#icon-Ellipse-1"></use>
             </svg>
             <img
               class="review-img"
@@ -121,8 +121,10 @@
               alt="avatar photo"
               width="40"
             />
+          </li>
+          <li class="reviews-li">
             <svg class="hero-svg" width="44" height="44">
-              <use href="../img/hero/elipses.svg#icon-Ellipse-1"></use>
+              <use href="../img/sprite.svg#icon-Ellipse-1"></use>
             </svg>
             <img
               class="review-img"
@@ -131,8 +133,10 @@
               alt="avatar photo"
               width="40"
             />
+          </li>
+          <li class="reviews-li">
             <svg class="hero-svg" width="44" height="44">
-              <use href="../img/hero/elipses.svg#icon-Ellipse-1"></use>
+              <use href="../img/sprite.svg#icon-Ellipse-1"></use>
             </svg>
             <img
               class="review-img"
@@ -141,15 +145,21 @@
               alt="avatar photo"
               width="40"
             />
-          </div>
-          <div class="text-div">
+          </li>
+
+          <li class="text-li">
             <svg class="hero-svg" width="44" height="44">
-              <use href="../img/hero/elipses.svg#icon-Ellipse-1"></use>
+              <use href="../img/sprite.svg#icon-Ellipse-1"></use>
             </svg>
-            <p>2k</p>
-            <p>reviews</p>
-          </div>
-        </div>
+            <div class="text-div">
+              <p class="first-p">2k</p>
+              <p class="second-p">reviews</p>
+            </div>
+          </li>
+        </ul>
+
+        <!-- ================================TEXT================================ -->
+
         <h1 class="hero-tittle">
           organic <span class="tittle-span">vegetables</span> to your diet
           today!
@@ -160,12 +170,16 @@
           covered. Fresh, high-quality vegetables in expertly curated vegetable
           baskets delivered to you.
         </p>
+        <!-- ================================BTN================================ -->
+
         <div class="btn-div">
-          <svg class="hero-svg-second" width="44" height="44">
-            <use href="../img/hero/elipses.svg#icon-Ellipse-2"></use>
+          <svg class="hero-svg-second" width="68" height="68">
+            <use href="../img/sprite.svg#icon-Ellipse-2"></use>
           </svg>
           <button class="hero-btn" type="button">shop now</button>
         </div>
+        <!-- ================================BANNER================================ -->
+
         <img
           class="hero-banner"
           srcset="../img/hero/mobile4-@2x-optimized.png 2x"
@@ -173,12 +187,22 @@
           alt="woman with veggie"
           width="303"
         />
-        <div class="hero-state-btn">
-          <button type="button" class="state-btn current">#organic</button>
-          <button type="button" class="state-btn">#products</button>
-          <button type="button" class="state-btn">#basket</button>
-          <button type="button" class="state-btn">#vegetables</button>
-        </div>
+        <!-- ================================ANCHORS================================ -->
+
+        <ul class="hero-ul list">
+          <li class="anchor-li">
+            <a class="anchor current link" href="#organic">#organic</a>
+          </li>
+          <li class="anchor-li">
+            <a class="anchor link" href="#products">#products</a>
+          </li>
+          <li class="anchor-li">
+            <a class="anchor link" href="#basket">#basket</a>
+          </li>
+          <li class="anchor-li">
+            <a class="anchor link" href="#vegetables">#vegetables</a>
+          </li>
+        </ul>
       </div>
     </section>
   </body>
