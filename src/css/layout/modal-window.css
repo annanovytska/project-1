@@ -34,8 +34,8 @@
 
 .modal-close-btn {
   position: absolute;
-  top: 20;
-  right: 20;
+  top: 20px;
+  right: 20px;
   width: 28px;
   height: 28px;
   display: flex;
@@ -136,6 +136,6 @@
 
 .modal-form-img {
   position: absolute;
-  right: 7;
-  bottom: 3;
+  right: 7px;
+  bottom: 3px;
 }
