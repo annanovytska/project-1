@@ -16,7 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/project-1/assets/index-a7c860b6.css">
+    <link rel="stylesheet" href="/project-1/assets/index-de274ba4.css">
   </head>
   <body>
     <header class="page-header">
@@ -36,14 +36,16 @@
         </li>
       </ul>
       <div class="logo">
-        <svg class="logo-icon" width="16" height="16">
-          <use href="../../src/img/sprite.svg#icon-logo"></use>
-        </svg>
-        <a href="../index.html">veggieboost</a>
+        <a href="../index.html" class="logo-link link">
+          <svg class="logo-icon" width="16" height="16">
+            <use href="../img/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <a class="logo-text logo-link link" href="../index.html">veggieboost</a>
       </div>
     </nav>
-    <svg class="shopping-basket" width="24" height="24">
-      <use href="../../src/img/sprite.svg#icon-shopping-basket"></use>
+    <svg class="shopping-basket-icon" width="20" height="20">
+      <use href="../img/sprite.svg#icon-shopping-basket"></use>
     </svg>
 
     <button
@@ -53,14 +55,22 @@
       aria-controls="mobile-menu"
     >
       <svg class="burger-icon" width="16" height="16">
-        <use href="../../src/img/sprite.svg#icon-burger"></use>
+        <use href="../img/sprite.svg#icon-burger"></use>
       </svg>
     </button>
   </div>
 </header>
 
 <div class="mobile-menu-window js-menu-container" id="mobile-menu">
-  <div class="mobile-menu-form">
+  <div class="mobile-menu-header">
+    <div class="logo">
+      <a href="../index.html" class="logo-link link">
+        <svg class="logo-icon" width="16" height="16">
+          <use href="../img/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <a class="logo-text logo-link link" href="../index.html">veggieboost</a>
+    </div>
     <button class="mobile-menu-close-btn js-close-menu" type="button">
       <svg
         class="mobile-menu-close-icon"
@@ -68,9 +78,11 @@
         width="24"
         height="24"
       >
-        <use href="../../src/img/sprite.svg#icon-close-mobile-menu"></use>
+        <use href="../img/sprite.svg#icon-close-mobile-menu"></use>
       </svg>
     </button>
+  </div>
+  <div class="mobile-menu-form">
     <nav class="mobile-menu-nav">
       <ul class="mobile-menu-nav-panel list">
         <li class="mobile-menu-nav-list">
@@ -88,7 +100,7 @@
         </li>
       </ul>
       <svg class="shopping-basket" width="24" height="24">
-        <use href="../../src/img/sprite.svg#icon-shopping-basket"></use>
+        <use href="../img/sprite.svg#icon-shopping-basket"></use>
       </svg>
     </nav>
   </div>
