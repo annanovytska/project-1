@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:8px;
+    gap: 8px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -56,9 +56,9 @@
 }
 
 .navigation-list {
-   display: flex;
-   justify-content: center;
-   gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .social-links-footer-div {
@@ -72,6 +72,14 @@
     gap: 20px;
 }
 
+.social-icons-footer:hover,
+.social-icons-footer:focus {
+    fill: var(--green);
+    border-color: var(--green);
+    transition-property: fill border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .social-icons-footer {
     border-radius: 10px;
@@ -88,6 +96,7 @@
     justify-content: center;
     justify-content: center;
 }
+
 .contact-information-list {
     display: flex;
     text-align: center;
@@ -97,12 +106,21 @@
 .contact-information-list:not(:last-child) {
     padding-bottom: 20px;
 }
+
 .contact-link {
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
     color: var(--black);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--green);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .location-link {
@@ -114,6 +132,13 @@
     color: var(--black);
 }
 
+.location-link:hover,
+.location-link:focus {
+    color: var(--green);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 @media screen and (min-width: 768px) {
 
@@ -122,12 +147,12 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .logo-photo-footer {
         align-items: start;
         max-width: 349px;
     }
-    
+
     .logo-footer {
         text-align: start;
 
@@ -140,7 +165,7 @@
     .social-links-footer-div {
         margin-bottom: 42px;
     }
-        
+
 }
 
 
@@ -155,4 +180,7 @@
         margin-left: 166px;
     }
 
+    .logo-footer {
+        margin-bottom: 0;
+    }
 }
