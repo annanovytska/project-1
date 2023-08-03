@@ -39,6 +39,7 @@
   }
 
   .delivery-text {
+    max-width: 544px;
     font-size: 28px;
     line-height: 1.14;
     letter-spacing: -1.12px;
@@ -53,14 +54,15 @@
 @media screen and (min-width: 1280px) {
   .delivery-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 73px;
     padding: 44px 64px;
   }
 
   .delivery-text {
+    margin-left: 73px;
     margin-top: 0;
+    max-width: 473px;
     font-size: 40px;
     line-height: 1.1;
     letter-spacing: -1.6px;
