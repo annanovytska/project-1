@@ -1,0 +1,139 @@
+.we-will {
+  padding: 80px 0;
+  display: flex;
+}
+.we-will-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.we-will-title {
+  color: var(--black);
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.we-will-text {
+  color: var(--black);
+  text-align: center;
+  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0.1);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  margin-bottom: 40px;
+}
+.we-will-form {
+  margin-bottom: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.we-will-input {
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid var(--black);
+  opacity: 0.30000001192092896;
+  height: 48px;
+  padding-left: 24px;
+}
+
+.we-will-btn {
+  border-radius: 100px;
+  background: var(--orange);
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  border: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.we-will-btn:hover,
+.we-will-btn:focus {
+  background-color: var(--green);
+}
+.we-will-image-box {
+  border-radius: 40px;
+  background-color: var(--beige);
+  overflow: hidden;
+  padding-top: 30px;
+  background-image: radial-gradient(
+    rgba(161, 196, 135, 0.4) 2.51253px,
+    var(--beige) 0
+  );
+  background-position: 27px 30px;
+  background-size: 46.6px 45.2px;
+}
+
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) {
+  .we-will-title {
+    max-width: 524px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .we-will-text {
+    max-width: 524px;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  .we-will-form {
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .we-will-image-box {
+    width: 100%;
+    padding: 17px 38px 0 38px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .we-will-container {
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+  }
+  .we-will-title {
+    width: 100%;
+    max-width: none;
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.04;
+    margin-bottom: 40px;
+  }
+  .we-will-text {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.72px;
+    margin-bottom: 80px;
+  }
+  .we-will-image-box {
+    width: 526px;
+    background-image: radial-gradient(
+      rgba(161, 196, 135, 0.4) 2.51253px,
+      var(--beige) 0
+    );
+    background-position: 27px 30px;
+    background-size: 46.6px 45.2px;
+    padding: 38px 0 0 0;
+  }
+  .we-will-form {
+    margin-left: unset;
+  }
+}

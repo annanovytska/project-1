@@ -35,10 +35,12 @@
   flex-wrap: wrap;
 }
 .vgtb-link {
-  background: var(--light-green);
+  background-color: #eaf7e5;
   border-radius: 20px;
 }
 .vgtb-icon {
+  width: 195px;
+  height: 38px;
   fill: #141414;
   opacity: 0.10000000149011612;
   filter: blur(13.591408729553223px);

@@ -1,3 +1,11 @@
+.marque {
+    max-width: 400px;
+}
+
+.marque-inner {
+    display: flex;
+}
+
 .marque-line-first {
     display: inline-flex;
     transform: rotate(1.018deg);
@@ -5,6 +13,15 @@
     justify-content: flex-end;
     align-items: center;
     background-color: var(--orange);
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .marque-line-second {
@@ -14,5 +31,24 @@
     justify-content: flex-end;
     align-items: center;
     background-color: var(--green);
+    flex-shrink: 0;
+    margin: 0;
+    padding: 10px 15px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
+
+@keyframes marqueeLine {
+    from {
+      transform: translateX(0);
+    }
+    
+    to {
+      transform: translateX(-100%);
+    }
+  }

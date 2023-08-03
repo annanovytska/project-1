@@ -21,12 +21,20 @@
 }
 
 .logo-footer {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
     text-align: center;
     margin-bottom: 40px;
 }
 
 .logo-link-broccoli {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
     color: var(--black);
 }
 
@@ -36,10 +44,12 @@
 
 .page-navigation-link {
     color: var(--black);
+    font-size: 14px;
 }
 
 .navigation-list {
    display: flex;
+   justify-content: center;
    gap: 20px;
 }
 
@@ -47,12 +57,13 @@
     margin-bottom: 40px;
 }
 
-.social-links-footer {
+.social-links-footer-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 
 .social-icons-footer {
     border-radius: 10px;
@@ -64,28 +75,76 @@
     padding: 8px;
 }
 
+.contact-information {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
 .contact-information-list {
+    display: flex;
     text-align: center;
+    max-width: 148px;
 }
 
 .contact-information-list:not(:last-child) {
     padding-bottom: 20px;
 }
 .contact-link {
-    color: var(--black);
     font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: var(--black);
 }
 
 .location-link {
-    color: var(--black);
     font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.28px;
+    color: var(--black);
 }
 
 
 @media screen and (min-width: 768px) {
-   
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo-photo-footer {
+        align-items: start;
+        max-width: 349px;
+    }
+    
+    .logo-footer {
+        text-align: start;
+
+    }
+
+    .location-link {
+        text-align: start;
+    }
+
+    .social-links-footer-div {
+        margin-bottom: 42px;
+    }
+        
 }
 
+
 @media screen and (min-width: 1280px) {
-    
+
+    .logo-tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation-list {
+        margin-left: 166px;
+    }
+
 }
