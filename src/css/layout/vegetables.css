@@ -1,3 +1,6 @@
+.vegetables {
+  box-sizing: content-box;
+}
 .vgtb-title {
   color: var(--black);
   text-align: center;
@@ -11,7 +14,6 @@
 }
 .vgtb-subtitle {
   color: var(--black);
-  text-align: center;
   font-family: DM Sans;
   font-size: 14px;
   font-style: normal;
@@ -20,6 +22,14 @@
   letter-spacing: -0.56px;
   text-align: left;
   margin-left: 24px;
+  width: 335px;
+}
+.vegetables-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-align: center;
 }
 .vgtb-link-title {
   box-sizing: content-box;
@@ -42,9 +52,13 @@
   font-weight: 500;
   line-height: 1.28;
   letter-spacing: -0.56px;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 .title-div {
   margin-bottom: 40px;
+  box-sizing: content-box;
 }
 .vgtb-title {
   margin-bottom: 14px;
@@ -56,8 +70,6 @@
   flex-wrap: wrap;
 }
 .vgtb-link {
-  width: 335px;
-  height: 443px;
   background-color: #eaf7e5;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -67,9 +79,60 @@
   position: relative;
 }
 .vgtb-icon {
-  width: 195px;
-  height: 38px;
-  fill: #141414;
-  opacity: 0.1;
-  filter: blur(13.591408729553223px);
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.radish-link {
+  display: none;
+}
+.vegetables-img-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vegetables-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--orange);
+  stroke-width: 1px;
+  stroke: #000;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.button-svg {
+  fill: #fff;
+}
+.button-text {
+  color: #fff;
+  transform: rotate(-14deg);
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .vegetables-bloc {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+  }
+  .vgtb-link {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .radish-link {
+    background-color: #eaf7e5;
+    border-radius: 20px;
+    display: block;
+  }
 }
