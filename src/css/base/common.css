@@ -29,3 +29,7 @@ img {
 button {
   cursor: pointer;
 }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
