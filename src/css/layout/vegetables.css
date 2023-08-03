@@ -18,8 +18,11 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.56px;
+  text-align: left;
+  margin-left: 24px;
 }
 .vgtb-link-title {
+  box-sizing: content-box;
   color: var(--black);
   font-family: DM Sans;
   font-size: 24px;
@@ -27,6 +30,24 @@
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: -0.96px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+.price {
+  color: #141414;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.56px;
+}
+.title-div {
+  margin-bottom: 40px;
+}
+.vgtb-title {
+  margin-bottom: 14px;
 }
 .vegetables-bloc {
   display: flex;
@@ -35,13 +56,20 @@
   flex-wrap: wrap;
 }
 .vgtb-link {
+  width: 335px;
+  height: 443px;
   background-color: #eaf7e5;
   border-radius: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.image-div {
+  position: relative;
 }
 .vgtb-icon {
   width: 195px;
   height: 38px;
   fill: #141414;
-  opacity: 0.10000000149011612;
+  opacity: 0.1;
   filter: blur(13.591408729553223px);
 }
