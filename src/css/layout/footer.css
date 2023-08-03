@@ -47,6 +47,14 @@
     font-size: 14px;
 }
 
+.page-navigation-link:hover,
+.page-navigation-link:focus {
+    color: var(--green);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .navigation-list {
    display: flex;
    justify-content: center;
