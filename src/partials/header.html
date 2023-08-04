@@ -3,15 +3,13 @@
     <nav class="header-nav">
       <ul class="list site-nav">
         <li class="site-nav-item">
-          <a class="link site-nav-link" href="./how-it-works.html"
-            >How It Works</a
-          >
+          <a class="link site-nav-link" href="#how-it-works">How It Works</a>
         </li>
         <li class="site-nav-item">
-          <a class="link site-nav-link" href="./vegetables.html">Vegetables</a>
+          <a class="link site-nav-link" href="#vegetables">Vegetables</a>
         </li>
         <li class="site-nav-item">
-          <a class="link site-nav-link" href="#">Contacts</a>
+          <a class="link site-nav-link" href="#contacts">Contacts</a>
         </li>
       </ul>
       <div class="logo">
@@ -23,9 +21,11 @@
         <a class="logo-text logo-link link" href="../index.html">veggieboost</a>
       </div>
     </nav>
-    <svg class="shopping-basket-icon" width="20" height="20">
-      <use href="../img/sprite.svg#icon-shopping-basket"></use>
-    </svg>
+    <button class="shopping-basket-btn" class="button" data-modal-open>
+      <svg class="shopping-basket-icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-shopping-basket"></use>
+      </svg>
+    </button>
 
     <button
       class="burger-btn js-open-menu"
@@ -33,7 +33,7 @@
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
-      <svg class="burger-icon" width="16" height="16">
+      <svg class="burger-icon" width="24" height="24">
         <use href="../img/sprite.svg#icon-burger"></use>
       </svg>
     </button>
@@ -65,22 +65,20 @@
     <nav class="mobile-menu-nav">
       <ul class="mobile-menu-nav-panel list">
         <li class="mobile-menu-nav-list">
-          <a href="./how-it-works.html" class="mobile-menu-link link"
-            >How It Works</a
-          >
+          <a href="#how-it-works" class="mobile-menu-link link">How It Works</a>
         </li>
         <li class="mobile-menu-nav-list">
-          <a href="./vegetables.html" class="mobile-menu-link link"
-            >Vegetables</a
-          >
+          <a href="#vegetables" class="mobile-menu-link link">Vegetables</a>
         </li>
         <li class="mobile-menu-nav-list">
-          <a href="#" class="mobile-menu-link link">Contacts</a>
+          <a href="#contacts" class="mobile-menu-link link">Contacts</a>
         </li>
       </ul>
-      <svg class="shopping-basket" width="24" height="24">
-        <use href="../img/sprite.svg#icon-shopping-basket"></use>
-      </svg>
+      <button class="shopping-basket-btn" class="button" data-modal-open>
+        <svg class="shopping-basket-icon" width="20" height="20">
+          <use href="../img/sprite.svg#icon-shopping-basket"></use>
+        </svg>
+      </button>
     </nav>
   </div>
 </div>
