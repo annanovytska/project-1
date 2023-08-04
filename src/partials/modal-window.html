@@ -1,167 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- MODAL -->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="modal-close-btn" type="button" data-modal-close>
-          <svg class="modal-close-icon">
-            <use href="./img/sprite.svg#icon-close-button-modal"></use>
-          </svg>
-        </button>
+<!-- MODAL -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-close-icon">
+        <use href="./img/sprite.svg#icon-close-button-modal"></use>
+      </svg>
+    </button>
 
-        <h2 class="modal-title">Your Order</h2>
-        <ul class="modal-list list">
-          <li class="modal-item">
-            <div class="checkbox-container">
-              <input
-                class="modal-input"
-                type="checkbox"
-                id="checkbox-cabbage"
-                name="cabbage"
-                value="true"
-              />
-              <label class="modal-checkbox-label" for="checkbox-cabbage">
-                <span class="modal-checkbox-custom">
-                  <svg class="checkbox-custom-icon" width="8" height="8">
-                    <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
-                  </svg>
-                </span>
-              </label>
-            </div>
-            <div class="text-container">
-              <h3 class="modal-item-title">Cabbage Basket</h3>
-              <p class="modal-item-description">Plant</p>
-            </div>
-            <div class="img-wrapper">
-              <img
-                class="modal-item-img"
-                srcset="./img/modal-window/cabbage@2x_optimized.png 2x"
-                src="./img/modal-window/cabbage_optimized.png"
-                alt="Cabbage in basket"
-              />
-            </div>
-          </li>
-
-          <li class="modal-item">
-            <div class="checkbox-container">
-              <input
-                class="modal-input"
-                type="checkbox"
-                id="checkbox-tomato"
-                name="tomato"
-                value="true"
-              />
-              <label class="modal-checkbox-label" for="checkbox-tomato">
-                <span class="modal-checkbox-custom">
-                  <svg class="checkbox-custom-icon" width="8" height="8">
-                    <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
-                  </svg>
-                </span>
-              </label>
-            </div>
-            <div class="text-container">
-              <h3 class="modal-item-title">Tomato Basket</h3>
-              <p class="modal-item-description">Plant</p>
-            </div>
-            <div class="img-wrapper">
-              <img
-                class="modal-item-img"
-                srcset="./img/modal-window/tomato@2x_optimized.png 2x"
-                src="./img/modal-window/tomato_optimized.png"
-                alt="Tomato in basket"
-              />
-            </div>
-          </li>
-
-          <li class="modal-item">
-            <div class="checkbox-container">
-              <input
-                class="modal-input"
-                type="checkbox"
-                id="checkbox-plant"
-                name="plant"
-                value="true"
-              />
-              <label class="modal-checkbox-label" for="checkbox-plant">
-                <span class="modal-checkbox-custom">
-                  <svg class="checkbox-custom-icon" width="8" height="8">
-                    <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
-                  </svg>
-                </span>
-              </label>
-            </div>
-            <div class="text-container">
-              <h3 class="modal-item-title">Vegetables Basket</h3>
-              <p class="modal-item-description">Plant</p>
-            </div>
-            <div class="img-wrapper">
-              <img
-                class="modal-item-img"
-                srcset="./img/modal-window/vegetables@2x.png 2x"
-                src="./img/modal-window/vegetables.png"
-                alt="Vegetables in basket"
-              />
-            </div>
-          </li>
-        </ul>
-
-        <!-- MODAL FORM -->
-
-        <form class="modal-form">
-          <label class="modal-form-label"
-            ><input
-              class="modal-form-input"
-              type="text"
-              name="user-name"
-              minlength="4"
-              maxlength="20"
-              pattern="[a-zA-Z ]+"
-              required
-              placeholder="Enter full name..."
-          /></label>
-          <label class="modal-form-label"
-            ><input
-              class="modal-form-input"
-              type="email"
-              name="user-email"
-              required
-              placeholder="Enter email..."
-          /></label>
-          <label class="modal-form-label"
-            ><input
-              class="modal-form-input"
-              type="tel"
-              minlength="16"
-              maxlength="16"
-              pattern="[0-9]+"
-              name="user-card-number"
-              required
-              placeholder="Enter card..."
-          /></label>
-          <label class="modal-form-comment-label">
-            <textarea
-              class="modal-form-comment"
-              name="comment"
-              placeholder="Enter comments..."
-            ></textarea>
+    <h2 class="modal-title">Your Order</h2>
+    <ul class="modal-list list">
+      <li class="modal-item">
+        <div class="checkbox-container">
+          <input
+            class="modal-input"
+            type="checkbox"
+            id="checkbox-cabbage"
+            name="cabbage"
+            value="true"
+          />
+          <label class="modal-checkbox-label" for="checkbox-cabbage">
+            <span class="modal-checkbox-custom">
+              <svg class="checkbox-custom-icon" width="8" height="8">
+                <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
+              </svg>
+            </span>
           </label>
-          <button class="modal-form-btn" type="submit">Submit</button>
-        </form>
-        <img
-          class="modal-form-img"
-          srcset="./img/modal-window/modal-girl@2x_optimized.png 2x"
-          src="./img/modal-window/modal-girl_optimized.png"
-          alt="girl with vegetables"
-          width="444"
-          height="413"
-        />
-      </div>
-    </div>
-  </body>
-</html>
+        </div>
+        <div class="text-container">
+          <h3 class="modal-item-title">Cabbage Basket</h3>
+          <p class="modal-item-description">Plant</p>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="modal-item-img"
+            srcset="./img/modal-window/cabbage@2x_optimized.png 2x"
+            src="./img/modal-window/cabbage_optimized.png"
+            alt="Cabbage in basket"
+          />
+        </div>
+      </li>
+
+      <li class="modal-item">
+        <div class="checkbox-container">
+          <input
+            class="modal-input"
+            type="checkbox"
+            id="checkbox-tomato"
+            name="tomato"
+            value="true"
+          />
+          <label class="modal-checkbox-label" for="checkbox-tomato">
+            <span class="modal-checkbox-custom">
+              <svg class="checkbox-custom-icon" width="8" height="8">
+                <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
+              </svg>
+            </span>
+          </label>
+        </div>
+        <div class="text-container">
+          <h3 class="modal-item-title">Tomato Basket</h3>
+          <p class="modal-item-description">Plant</p>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="modal-item-img"
+            srcset="./img/modal-window/tomato@2x_optimized.png 2x"
+            src="./img/modal-window/tomato_optimized.png"
+            alt="Tomato in basket"
+          />
+        </div>
+      </li>
+
+      <li class="modal-item">
+        <div class="checkbox-container">
+          <input
+            class="modal-input"
+            type="checkbox"
+            id="checkbox-plant"
+            name="plant"
+            value="true"
+          />
+          <label class="modal-checkbox-label" for="checkbox-plant">
+            <span class="modal-checkbox-custom">
+              <svg class="checkbox-custom-icon" width="8" height="8">
+                <use href="./img/sprite.svg#icon-checkmark-checkbox"></use>
+              </svg>
+            </span>
+          </label>
+        </div>
+        <div class="text-container">
+          <h3 class="modal-item-title">Vegetables Basket</h3>
+          <p class="modal-item-description">Plant</p>
+        </div>
+        <div class="img-wrapper">
+          <img
+            class="modal-item-img"
+            srcset="./img/modal-window/vegetables@2x.png 2x"
+            src="./img/modal-window/vegetables.png"
+            alt="Vegetables in basket"
+          />
+        </div>
+      </li>
+    </ul>
+
+    <!-- MODAL FORM -->
+
+    <form class="modal-form">
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          minlength="4"
+          maxlength="20"
+          pattern="[a-zA-Z ]+"
+          required
+          placeholder="Enter full name..."
+      /></label>
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="email"
+          name="user-email"
+          required
+          placeholder="Enter email..."
+      /></label>
+      <label class="modal-form-label"
+        ><input
+          class="modal-form-input"
+          type="tel"
+          minlength="16"
+          maxlength="16"
+          pattern="[0-9]+"
+          name="user-card-number"
+          required
+          placeholder="Enter card..."
+      /></label>
+      <label class="modal-form-comment-label">
+        <textarea
+          class="modal-form-comment"
+          name="comment"
+          placeholder="Enter comments..."
+        ></textarea>
+      </label>
+      <button class="modal-form-btn" type="submit">Submit</button>
+    </form>
+    <img
+      class="modal-form-img"
+      srcset="./img/modal-window/modal-girl@2x_optimized.png 2x"
+      src="./img/modal-window/modal-girl_optimized.png"
+      alt="girl with vegetables"
+      width="444"
+      height="413"
+    />
+  </div>
+</div>
