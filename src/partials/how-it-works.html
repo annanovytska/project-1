@@ -52,20 +52,36 @@
   </div>
   <div class="container steps-container">
     <h3 class="steps-title">3 easy steps for buying fresh vegetables</h3>
-    <ol class="steps-list list">
-      <li class="steps-list-item">
-        Just choose the vegetable you want to order by clicking on the
-        checkboxes next to it.
-      </li>
-      <li class="steps-list-item">
-        Click on the basket and fill out the form.
-      </li>
-      <li class="steps-list-item">
-        Sit back and relax! Your fresh vegetables basket will be delivered.
-      </li>
-    </ol>
+    <div class="ol-div">
+      <ol class="steps-list list">
+        <li class="steps-list-item">
+          Just choose the vegetable you want to order by clicking on the
+          checkboxes next to it.
+        </li>
+        <li class="steps-list-item">
+          Click on the basket and fill out the form.
+        </li>
+        <li class="steps-list-item">
+          Sit back and relax! Your fresh vegetables basket will be delivered.
+        </li>
+      </ol>
+    </div>
     <picture>
       <!-- MOBILE -->
+      <source
+        srcset="
+          ./img/how-it-works/desktop-girl-with-vegetables.png    1x,
+          ./img/how-it-works/desktop-girl-with-vegetables@2x.png 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/how-it-works/tablet-girl-with-vegetables.png    1x,
+          ./img/how-it-works/tablet-girl-with-vegetables@2x.png 2x
+        "
+        media="(min-width: 768px)"
+      />
       <source
         srcset="
           ./img/how-it-works/mobile-girl-with-vegetables.png    1x,
@@ -74,21 +90,9 @@
         media="(min-width: 375px)"
       />
       <!-- TABLET -->
-      <source
-        srcset="
-          ./img/how-it-works/tablet-girl-with-vegetables.png    1x,
-          ./img/how-it-works/tablet-girl-with-vegetables@2x.png 2x
-        "
-        media="(min-width: 768px)"
-      />
+
       <!-- DESKTOP -->
-      <source
-        srcset="
-          ./img/how-it-works/desktop-girl-with-vegetables.png    1x,
-          ./img/how-it-works/desktop-girl-with-vegetables@2x.png 2x
-        "
-        media="(min-width: 1280px)"
-      />
+
       <img
         class="steps-list-img"
         src="./img/how-it-works/mobile-girl-with-vegetables.png"
