@@ -1,5 +1,5 @@
 .how-it-works-section {
-  margin: 80px auto;
+  margin: auto;
 }
 .how-it-works-container {
   position: relative;
@@ -130,7 +130,6 @@
   .how-it-works-img-item {
     position: absolute;
     top: 0;
-    right: 0;
   }
   .how-text-div {
     display: flex;
