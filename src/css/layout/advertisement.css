@@ -1,54 +1,77 @@
-.marque {
-    max-width: 400px;
-}
 
-.marque-inner {
-    display: flex;
-}
-
-.marque-line-first {
-    display: inline-flex;
-    transform: rotate(1.018deg);
-    padding: 8.485px 0px 13.471px 5.732px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: var(--orange);
-    flex-shrink: 0;
+  .container {
     margin: 0;
-    padding: 10px 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
+    padding: 0;
+  }
 
-.marque-line-second {
-    display: inline-flex;
-    transform: rotate(-1.07deg);
-    padding: 12.474px 0px 9.354px 0px;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: var(--green);
-    flex-shrink: 0;
-    margin: 0;
-    padding: 10px 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes marqueeLine {
+  @keyframes marqueeLine {
     from {
       transform: translateX(0);
     }
-    
     to {
       transform: translateX(-100%);
     }
+  }
+
+
+  /* ====FIRST-TICKER==== */
+
+  .marque-inner {
+    overflow-x: hidden;
+    display: flex;
+    background-color: var(--orange);
+    transform: rotate(3deg)
+  }
+
+  .marque-line-first {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 12px 10px;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.48x;
+    color: #F9F7F4;
+  }
+
+  .fourty-per{
+    font-style: italic;
+    font-weight: 400;
+  }
+
+
+/* ====SECOND-TICKER==== */
+
+
+  .marque-inner-second {
+    overflow-x: hidden;
+    display: flex;
+    transform: rotate(-3deg);
+    background-color: var(--green);
+  }
+
+  .marque-line-second {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 12px 10px;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 5000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.48x;
+    color: #F9F7F4;
+  }
+
+  .the-vitamins{
+    font-style: italic;
+    font-weight: 400;
   }
