@@ -154,7 +154,7 @@
 }
 .anchor-ul {
   display: flex;
-  max-width: 170px;
+  max-width: 171px;
   justify-content: flex-end;
 
   flex-wrap: wrap;
@@ -183,11 +183,11 @@
     background-color var(--transision);
 }
 
-/* .anchor.current {
+.anchor.current {
   border: 1px solid #f9f7f4;
   color: #141414;
   background-color: #f9f7f4;
-} */
+}
 .anchor:hover {
   border: 1px solid #f9f7f4;
   color: #141414;
