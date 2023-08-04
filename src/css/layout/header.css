@@ -2,6 +2,10 @@
   display: none;
 }
 
+.shopping-basket-btn {
+  display: none;
+}
+
 .shopping-basket-icon {
   display: none;
 }
@@ -11,6 +15,8 @@
   padding: 0;
   border: none;
   background-color: transparent;
+  width: 24px;
+  height: 24px;
 }
 
 .burger-icon {
@@ -23,9 +29,10 @@
 
 .header-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .logo {
   display: flex;
@@ -59,22 +66,33 @@
   top: 0;
   left: 0;
   width: 100%;
+  max-width: 335px;
   height: 100vh;
   background-color: var(--green);
 }
 
 .mobile-menu-window.is-open {
+  display: block;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  z-index: 9999;
+}
+
+.mobile-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 13px 20px;
+
+  background-color: var(--white);
 }
 
 .mobile-menu-form {
   width: 100%;
   max-width: 375px;
   min-height: 100%;
-  padding-left: 40px;
-  padding-right: 35px;
   padding-top: 124px;
   padding-bottom: 516px;
 }
@@ -84,14 +102,37 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 
 .mobile-menu-close-btn {
-  position: absolute;
-  top: 24px;
-  right: 24px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-menu-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  color: var(--white);
+}
+
+.shopping-basket-btn {
   display: flex;
+  background-color: transparent;
+  border: none;
+}
+
+.mobile-menu-window .shopping-basket-icon {
+  display: flex;
+  stroke: var(--white);
 }
 
 @media screen and (min-width: 768px) {
@@ -129,6 +170,11 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.56px;
+  }
+
+  .shopping-basket-btn {
+    background-color: transparent;
+    border: none;
   }
 
   .shopping-basket-icon {
