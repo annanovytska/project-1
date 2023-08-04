@@ -1,9 +1,4 @@
 
-  .container {
-    margin: 0;
-    padding: 0;
-  }
-
   @keyframes marqueeLine {
     from {
       transform: translateX(0);
@@ -13,6 +8,16 @@
     }
   }
 
+
+     @keyframes marqueeLineTwo {
+       from {
+         transform: translateX(0);
+       }
+  
+       to {
+         transform: translateX(100%);
+       }
+     }
 
   /* ====FIRST-TICKER==== */
 
@@ -60,7 +65,7 @@
     margin: 0;
     padding: 12px 10px;
     white-space: nowrap;
-    animation-name: marqueeLine;
+    animation-name: marqueeLineTwo;
     animation-duration: 5000ms;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
