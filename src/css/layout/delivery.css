@@ -17,6 +17,8 @@
   letter-spacing: -0.96px;
   text-transform: uppercase;
   color: var(--black);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .delivery-text-accent-green {
@@ -31,6 +33,8 @@
 .delivery-img {
   width: 295px;
   height: 172px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
