@@ -72,7 +72,7 @@
   padding-top: 30px;
   background-image: radial-gradient(
     rgba(161, 196, 135, 0.4) 2.51253px,
-    var(--beige) 0
+    var(--light-green) 0
   );
   background-position: 27px 30px;
   background-size: 46.6px 45.2px;
@@ -127,7 +127,7 @@
     width: 526px;
     background-image: radial-gradient(
       rgba(161, 196, 135, 0.4) 2.51253px,
-      var(--beige) 0
+      var(--light-green) 0
     );
     background-position: 27px 30px;
     background-size: 46.6px 45.2px;
