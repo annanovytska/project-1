@@ -185,6 +185,7 @@
 @media screen and (min-width: 1280px) {
   .how-it-works-section {
     padding-top: 124px;
+    padding-bottom: 62px;
   }
 
   .how-it-works-container {
