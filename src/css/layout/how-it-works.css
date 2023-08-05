@@ -103,6 +103,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .how-it-works-section {
+    padding-top: 100px;
+  }
+
+  .how-it-works-container {
+    margin-bottom: 100px;
+  }
   .ol-div {
     display: flex;
     justify-content: end;
@@ -149,9 +156,15 @@
     position: absolute;
     left: 0;
     bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
   }
   .steps-container {
     position: relative;
+    margin-top: 0;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 0;
   }
 
   .steps-div {
@@ -164,6 +177,7 @@
     letter-spacing: -1.12px;
     max-width: 274px;
     margin-left: auto;
+    margin-bottom: 0;
   }
 }
 
