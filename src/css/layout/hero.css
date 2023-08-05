@@ -3,7 +3,9 @@
 }
 .hero-section {
   /* position: relative; */
-  padding: 48px 20px 20px;
+
+  padding-top: 48px;
+  padding-bottom: 20px;
   background-color: #a1c487;
 }
 .container.hero-div {
@@ -286,7 +288,8 @@
 }
 @media screen and (min-width: 1280px) {
   .hero-section {
-    padding: 134px 32px 35px;
+    padding-top: 134px;
+    padding-bottom: 32px;
   }
   .hero-svg {
     width: 70px;
