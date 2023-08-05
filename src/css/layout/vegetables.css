@@ -1,10 +1,6 @@
 .radish-link {
   display: none;
 }
-.vegetables {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
 .vgtb-div {
   max-width: 375px;
 }
@@ -124,10 +120,6 @@
   text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
-  .vegetables {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
   .vgtb-div {
     max-width: 768px;
   }
@@ -202,10 +194,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .vegetables {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
   .radish-link {
     display: block;
   }
