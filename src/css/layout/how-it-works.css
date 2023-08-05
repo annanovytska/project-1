@@ -65,12 +65,11 @@
   margin-bottom: 21px;
 }
 
-
 .steps-list-item::before {
   position: absolute;
   left: -50px;
   display: flex;
-  content: counter(my-counter) "";
+  content: counter(my-counter) '';
   counter-increment: my-counter;
   top: calc(50% - 20px);
   width: 40px;
@@ -104,9 +103,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
-
-
   .ol-div {
     display: flex;
     justify-content: end;
@@ -172,9 +168,17 @@
 }
 
 @media screen and (min-width: 1280px) {
-  
+  .how-it-works-section {
+    padding-top: 124px;
+  }
+
+  .how-it-works-container {
+    margin-bottom: 124px;
+  }
   .steps-container {
+    margin-top: 0;
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .steps-list-item:not(:last-child) {
@@ -196,7 +200,9 @@
     line-height: 1.1;
     letter-spacing: -1.6px;
     max-width: 512px;
+    margin-bottom: 0;
   }
+
   .steps-list-item {
     max-width: 289px;
     margin-bottom: 21px;
@@ -204,7 +210,12 @@
   }
   .steps-list-img {
     position: absolute;
-    margin-left: 80px;
-    margin-top: 40px;
+    margin-left: 0;
+    margin-top: 0;
+    left: 80px;
+  }
+
+  .how-text-div {
+    gap: 40px;
   }
 }

@@ -185,6 +185,7 @@
 @media screen and (min-width: 1280px) {
   .site-nav {
     margin-right: 308px;
+    gap: 20px;
   }
 
   .shopping-basket-icon {

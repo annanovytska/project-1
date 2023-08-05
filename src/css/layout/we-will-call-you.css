@@ -101,6 +101,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .we-will {
+    padding-bottom: 124px;
+  }
   .we-will-container {
     flex-direction: row;
     gap: 80px;
