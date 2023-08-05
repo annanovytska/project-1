@@ -362,9 +362,9 @@
   .hero-banner {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 32px;
     display: block;
-    margin: 4px auto 7px;
+    margin: 0;
   }
   /* ================================ANCHOR================================ */
 
