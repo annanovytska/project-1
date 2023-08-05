@@ -13,7 +13,6 @@
 .we-will-title {
   color: var(--black);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0, 0.1);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.16;
@@ -25,7 +24,6 @@
 .we-will-text {
   color: var(--black);
   text-align: center;
-  text-shadow: 0px 4px 70px 0px rgba(0, 0, 0.1);
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.56px;
@@ -109,7 +107,7 @@
     align-items: center;
   }
   .we-will-title {
-    width: 100%;
+    width: 614px;
     max-width: none;
     text-align: left;
     font-size: 48px;

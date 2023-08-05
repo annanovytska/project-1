@@ -66,7 +66,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  max-width: 375px;
   height: 100vh;
   background-color: var(--green);
 }
@@ -91,8 +90,8 @@
 
 .mobile-menu-form {
   width: 100%;
-  max-width: 375px;
-  min-height: 100%;
+
+  height: 100%;
   padding-top: 124px;
   padding-bottom: 516px;
 }
