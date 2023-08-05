@@ -3,3 +3,5 @@
 3.https://github.com/annanovytska/project-1/pull/37
 4.https://github.com/annanovytska/project-1/pull/46
 5.https://github.com/annanovytska/project-1/pull/77
+6.https://github.com/annanovytska/project-1/pull/80
+7.https://github.com/annanovytska/project-1/pull/81
