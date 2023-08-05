@@ -180,6 +180,10 @@
 
 @media screen and (min-width: 1280px) {
 
+    .footer-container {
+        padding-right: 142px;
+    }
+
     .logo-tablet {
         display: flex;
         align-items: center;
