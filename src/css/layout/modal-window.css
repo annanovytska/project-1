@@ -330,8 +330,8 @@
 
   .modal-form-img {
     position: absolute;
-    right: 7px;
-    bottom: 3px;
+    right: 0;
+    bottom: 0;
   }
 
   .modal-item-img {
