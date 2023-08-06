@@ -77,8 +77,8 @@
   pointer-events: auto;
   z-index: 9999;
 
-  left: -100%;
-  transform: translateX(100%);
+  left: 100%;
+  transform: translateX(-100%);
   transition: transform var(--transision);
 }
 
