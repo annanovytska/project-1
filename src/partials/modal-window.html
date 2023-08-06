@@ -148,13 +148,31 @@
       </label>
       <button class="modal-form-btn" type="submit">Submit</button>
     </form>
-    <img
-      class="modal-form-img"
-      srcset="./img/modal-window/modal-girl@2x_optimized.png 2x"
-      src="./img/modal-window/modal-girl_optimized.png"
-      alt="girl with vegetables"
-      width="444"
-      height="413"
-    />
+
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/modal-window/modal-girl_optimized.png    1x,
+          ./img/modal-window/modal-girl@2x_optimized.png 2x
+        "
+        width="444"
+        height="410"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/modal-window/tablet-girl-optimized.png    1x,
+          ./img/modal-window/tablet-girl@2x-optimized.png 2x
+        "
+        width="290"
+        height="403"
+      />
+      <img
+        class="modal-form-img"
+        src="./img/modal-window/modal-girl_optimized.png"
+        alt="girl with vegetables"
+      />
+    </picture>
   </div>
 </div>
