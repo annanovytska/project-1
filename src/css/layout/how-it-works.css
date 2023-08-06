@@ -88,11 +88,11 @@
 
 .steps-list-img {
   margin-top: 20px;
-  margin-left: 19px;
+  /* margin-left: 19px; */
 }
 
 .steps-title {
-  min-width: 295px;
+  max-width: 295px;
   margin-bottom: 40px;
   font-size: 24px;
   font-style: normal;

@@ -1,75 +1,72 @@
-
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-33%);
-    }
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
   }
-
-  /* ====FIRST-TICKER==== */
-
-  .marque-inner {
-    overflow-x: hidden;
-    display: flex;
-    background-color: var(--orange);
-    transform: rotate(3deg)
+  to {
+    transform: translateX(-33%);
   }
+}
 
-  .marque-line-first {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 12px 10px;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5000ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.48px;
-    color: #F9F7F4;
-  }
+/* ====FIRST-TICKER==== */
 
-  .fourty-per{
-    font-style: italic;
-    font-weight: 400;
-  }
+.marque-inner {
+  overflow-x: hidden;
+  display: flex;
+  background-color: var(--orange);
+  transform: rotate(3deg);
+}
 
+.marque-line-first {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 12px 0;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.48px;
+  color: #f9f7f4;
+  width: 100%;
+}
+
+.fourty-per {
+  font-style: italic;
+  font-weight: 400;
+}
 
 /* ====SECOND-TICKER==== */
 
+.marque-inner-second {
+  overflow-x: hidden;
+  display: flex;
+  transform: rotate(-3deg);
+  background-color: var(--green);
+}
 
-  .marque-inner-second {
-    overflow-x: hidden;
-    display: flex;
-    transform: rotate(-3deg);
-    background-color: var(--green);
-  }
+.marque-line-second {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 12px 0;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
 
-  .marque-line-second {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 12px 10px;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5000ms;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction:reverse;
-   
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.48px;
-    color: #F9F7F4;
-  }
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.48px;
+  color: #f9f7f4;
+  width: 100%;
+}
 
-
-
-  .the-vitamins{
-    font-style: italic;
-    font-weight: 400;
-  }
+.the-vitamins {
+  font-style: italic;
+  font-weight: 400;
+}
