@@ -127,18 +127,17 @@
   color: var(--white);
 }
 
-.shopping-basket-btn {
-  display: flex;
-  background-color: transparent;
-  border: none;
-}
-
 .mobile-menu-window .shopping-basket-icon {
   display: flex;
   stroke: var(--white);
 }
 
 @media screen and (min-width: 768px) {
+  .shopping-basket-btn {
+    display: flex;
+    background-color: transparent;
+    border: none;
+  }
   .burger-btn {
     display: none;
   }
