@@ -20,7 +20,9 @@
 
 .modal {
   width: 335px;
-  height: 903px;
+  max-height: 903px;
+  height: 100vh;
+  overflow: auto;
   padding: 20px;
   position: absolute;
   top: 50%;
@@ -217,9 +219,9 @@
 
 @media screen and (min-width: 768px) {
   .modal {
-    overflow: hidden;
     width: 704px;
-    height: 853px;
+    max-height: 853px;
+    height: 100vh;
     padding: 40px;
   }
 
@@ -308,7 +310,8 @@
 @media screen and (min-width: 1280px) {
   .modal {
     width: 891px;
-    height: 911px;
+    max-height: 911px;
+    height: 100vh;
   }
 
   .modal-list {
