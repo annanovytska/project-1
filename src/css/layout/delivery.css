@@ -31,7 +31,8 @@
   color: var(--orange);
 }
 .delivery-img {
-  width: 295px;
+  width: 100%;
+  max-width: 295px;
   height: 172px;
   margin-left: auto;
   margin-right: auto;
@@ -50,7 +51,7 @@
   }
 
   .delivery-img {
-    width: 544px;
+    min-width: 544px;
     height: 318px;
   }
 }
@@ -74,7 +75,7 @@
   }
 
   .delivery-img {
-    width: 578px;
+    min-width: 578px;
     height: 339px;
   }
 }

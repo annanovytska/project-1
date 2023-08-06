@@ -2,6 +2,9 @@
   padding-bottom: 80px;
   display: flex;
 }
+.wrapper-div-mobile {
+  width: 100%;
+}
 .we-will-container {
   display: flex;
   width: 100%;
@@ -75,6 +78,10 @@
   );
   background-position: 27px 30px;
   background-size: 46.6px 45.2px;
+}
+
+.we-will-image {
+  width: 100%;
 }
 
 @media screen and (min-width: 375px) {
