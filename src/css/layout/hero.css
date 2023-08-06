@@ -135,11 +135,26 @@
   border: none;
 
   color: #fc8a11;
+
+  transition: color var(--transision);
+}
+.hero-btn:hover {
+  color: var(--green);
+}
+.hero-btn:focus {
+  color: var(--green);
 }
 .btn-text {
 }
 .hero-svg-second {
   fill: #faf3e7;
+  transition: fill var(--transision);
+}
+.hero-svg-second:hover {
+  fill: #eaf7e5;
+}
+.hero-svg-second:focus {
+  fill: #eaf7e5;
 }
 /* ================================BANNER================================ */
 
