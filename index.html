@@ -16,8 +16,8 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/project-1/assets/index-025c8622.js"></script>
-    <link rel="stylesheet" href="/project-1/assets/index-77573023.css">
+    <script type="module" crossorigin src="/project-1/assets/index-74f32938.js"></script>
+    <link rel="stylesheet" href="/project-1/assets/index-cd91d71e.css">
   </head>
   <body>
     <header class="page-header">
@@ -1039,14 +1039,26 @@
       </label>
       <button class="modal-form-btn" type="submit">Submit</button>
     </form>
-    <img
-      class="modal-form-img"
-      srcset="/project-1/assets/modal-girl@2x_optimized-7141be87.png 2x"
-      src="/project-1/assets/modal-girl_optimized-d5ca74d0.png"
-      alt="girl with vegetables"
-      width="444"
-      height="413"
-    />
+
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/project-1/assets/modal-girl_optimized-d5ca74d0.png 1x, /project-1/assets/modal-girl@2x_optimized-7141be87.png 2x"
+        width="444"
+        height="410"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/project-1/assets/tablet-girl-optimized-ef3a45df.png 1x, /project-1/assets/tablet-girl@2x-optimized-bb45e187.png 2x"
+        width="290"
+        height="403"
+      />
+      <img
+        class="modal-form-img"
+        src="/project-1/assets/modal-girl_optimized-d5ca74d0.png"
+        alt="girl with vegetables"
+      />
+    </picture>
   </div>
 </div>
 
