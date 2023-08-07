@@ -9,26 +9,48 @@
           your box today and start enjoying the best that nature has to offer!
         </p>
         <form class="we-will-form">
-          <input class="we-will-input" type="tel" id="user-phone" required placeholder="+38()" pattern="[0-9]{12}"
-            title="380501112233" maxlength="12" minlength="12" />
+          <input
+            class="we-will-input"
+            type="tel"
+            id="user-phone"
+            required
+            placeholder="+38()"
+            pattern="[0-9]{12}"
+            title="380501112233"
+            maxlength="12"
+            minlength="12"
+          />
           <button class="we-will-btn" type="submit">Recall</button>
         </form>
       </div>
       <div class="we-will-image-box">
         <picture>
-          <source media="(min-width:1280px)" srcset="
-              ./img/girl-images/desktop-girl.webp,
-              ./img/girl-images/desktop-girl@2x.webp
-            " />
-          <source media="(min-width: 768px)" srcset="
-              ./img/girl-images/tablet-girl.webp,
-              ./img/girl-images/tablet-girl@2x.webp
-            " />
-          <source media="(max-width: 767px)" srcset="
-              ./img/girl-images/mobile-girl.webp,
-              ./img/girl-images/mobile-girl@2x.webp
-            " />
-          <img class="we-will-image" src="./img/girl-images/desktop-girl.webp" alt="girl" />
+          <source
+            srcset="
+              ./img/girl-images/desktop-girl.webp    1x,
+              ./img/girl-images/desktop-girl@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./img/girl-images/tablet-girl.webp    1x,
+              ./img/girl-images/tablet-girl@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/girl-images/mobile-girl.webp    1x,
+              ./img/girl-images/mobile-girl@2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="we-will-image"
+            src="./img/girl-images/desktop-girl.webp"
+            alt="girl"
+          />
         </picture>
       </div>
     </div>
