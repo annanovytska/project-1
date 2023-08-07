@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -28,10 +36,6 @@ img {
 
 button {
   cursor: pointer;
-}
-
-body {
-  font-family: 'DM Sans', sans-serif;
 }
 
 .visually-hidden {
