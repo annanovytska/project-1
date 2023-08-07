@@ -218,6 +218,23 @@
 }
 
 @media screen and (min-width: 768px) {
+
+.modal-form::after {
+    position: absolute;
+    right: -40px;
+    bottom: -40px;
+    display: block;
+    content: "";
+    width: 290px;
+    height: 403px;
+    background-image: url(../../img/modal-window/tablet-girl.webp);
+    background-size: cover;
+  }
+
+  .modal-form {
+    position: relative;
+  }
+
   .modal {
     width: 704px;
     max-height: 853px;
@@ -306,6 +323,24 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .modal-form::after {
+      position: absolute;
+      right: -40px;
+      bottom: -40px;
+      display: block;
+      content: "";
+      width: 444px;
+      height: 413px;
+      background-image: url(../../img/modal-window/modal-girl.webp);
+      background-size: cover;
+    }
+  
+    .modal-form {
+      position: relative;
+    }
+
+
   .modal {
     width: 891px;
     max-height: 911px;
